@@ -1,0 +1,5451 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "my-app",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.16.2",
+        "@testing-library/react": "^12.1.4",
+        "@testing-library/user-event": "^13.5.0",
+        "prop-types": "^15.8.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-router-dom": "6",
+        "react-scripts": "5.0.0",
+        "react-sortable-hoc": "^2.0.0",
+        "redux": "^4.1.2",
+        "web-vitals": "^2.1.4"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+        "extends": [
+          "react-app",
+          "react-app/jest"
+        ]
+      },
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      }
+    },
+    "prefix": "D:\\study\\my-app"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\study\\my-app\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\study\\my-app",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/prop-types/15.8.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prop-types",
+      "rawSpec": "^15.8.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/prop-types/15.8.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-sortable-hoc",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/react-router-dom/6.3.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-router-dom",
+      "rawSpec": "6"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/react-router-dom/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/web-vitals/2.1.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "web-vitals",
+      "rawSpec": "^2.1.4"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/web-vitals/2.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "12 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/prop-types/15.8.1",
+    "size": 22651,
+    "status": "started"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/prop-types/15.8.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "14 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/react-router-dom/6.3.0",
+    "size": 23624,
+    "status": "started"
+  },
+  "15 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/react-router-dom/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@testing-library/react/12.1.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/react",
+      "rawSpec": "^12.1.4"
+    }
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/react/12.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "18 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@testing-library/react/12.1.4",
+    "size": 857595,
+    "status": "started"
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/react/12.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "20 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@testing-library/user-event/13.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/user-event",
+      "rawSpec": "^13.5.0"
+    }
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@testing-library/user-event/13.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@testing-library/jest-dom/5.16.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/jest-dom",
+      "rawSpec": "^5.16.2"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/jest-dom/5.16.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "24 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@testing-library/jest-dom/5.16.4",
+    "size": 27349,
+    "status": "started"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/jest-dom/5.16.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "26 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/redux/4.1.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "redux",
+      "rawSpec": "^4.1.2"
+    }
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/redux/4.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "28 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-scripts/5.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-scripts",
+      "rawSpec": "5.0.0"
+    }
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-scripts/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "30 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/web-vitals/2.1.4",
+    "size": 32780,
+    "status": "started"
+  },
+  "31 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+    "size": 254679,
+    "status": "started"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/web-vitals/2.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "34 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-dom/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-dom",
+      "rawSpec": "^17.0.2"
+    }
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-dom/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "36 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@testing-library/user-event/13.5.0",
+    "size": 36801,
+    "status": "started"
+  },
+  "37 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-dom/17.0.2",
+    "size": 744992,
+    "status": "started"
+  },
+  "38 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/redux/4.1.2",
+    "size": 34321,
+    "status": "started"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@testing-library/user-event/13.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "40 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-scripts/5.0.0",
+    "size": 32493,
+    "status": "started"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/redux/4.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-scripts/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-dom/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "44 debug pnpm:update-check": {
+    "currentVersion": "7.0.0-beta.2",
+    "latestVersion": "6.32.4"
+  },
+  "45 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react/17.0.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react",
+      "rawSpec": "^17.0.2"
+    }
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "47 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/prop-types/15.8.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+      "name": "prop-types",
+      "rawSpec": "^15.5.7"
+    }
+  },
+  "48 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/invariant/2.2.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+      "name": "invariant",
+      "rawSpec": "^2.2.4"
+    }
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/invariant/2.2.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "50 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/aria-query/5.0.0",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "aria-query",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/aria-query/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "52 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@types/react-dom/17.0.14",
+    "wanted": {
+      "dependentId": "/@testing-library/react/12.1.4",
+      "name": "@types/react-dom",
+      "rawSpec": "*"
+    }
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/react-dom/17.0.14",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "54 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/object-assign/4.1.1",
+    "wanted": {
+      "dependentId": "/prop-types/15.8.1",
+      "name": "object-assign",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "55 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/object-assign/4.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "56 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/css/3.0.0",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "css",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/css/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "58 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@types/testing-library__jest-dom/5.14.3",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "@types/testing-library__jest-dom",
+      "rawSpec": "^5.9.1"
+    }
+  },
+  "59 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/testing-library__jest-dom/5.14.3",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "wanted": {
+      "dependentId": "/prop-types/15.8.1",
+      "name": "loose-envify",
+      "rawSpec": "^1.4.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/css.escape/1.5.1",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "css.escape",
+      "rawSpec": "^1.5.1"
+    }
+  },
+  "63 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/css.escape/1.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "64 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@types/react-dom/17.0.14",
+    "size": 7460,
+    "status": "started"
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/react-dom/17.0.14",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "66 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/history/5.3.0",
+    "wanted": {
+      "dependentId": "/react-router-dom/6.3.0",
+      "name": "history",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "67 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/history/5.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "68 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@types/testing-library__jest-dom/5.14.3",
+    "size": 7290,
+    "status": "started"
+  },
+  "69 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/testing-library__jest-dom/5.14.3",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "70 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-sortable-hoc/2.0.0",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.2.0"
+    }
+  },
+  "71 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "72 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "/@testing-library/react/12.1.4",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.12.5"
+    }
+  },
+  "73 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@testing-library/user-event/13.5.0",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.12.5"
+    }
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.9.2"
+    }
+  },
+  "75 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/redux/4.1.2",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.9.2"
+    }
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/dom-accessibility-api/0.5.13",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "dom-accessibility-api",
+      "rawSpec": "^0.5.6"
+    }
+  },
+  "77 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/dom-accessibility-api/0.5.13",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "78 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/history/5.3.0",
+    "size": 18855,
+    "status": "started"
+  },
+  "79 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/history/5.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "80 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/invariant/2.2.4",
+    "size": 3079,
+    "status": "started"
+  },
+  "81 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/redent/3.0.0",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "redent",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "82 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/redent/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "83 warn pnpm:install-check": {
+    "message": "Unsupported platform for r2.cnpmjs.org/fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})",
+    "prefix": "D:\\study\\my-app"
+  },
+  "84 debug pnpm:skipped-optional-dependency": {
+    "details": "Error: Unsupported platform for r2.cnpmjs.org/fsevents/2.3.2: wanted {\"cpu\":[\"any\"],\"os\":[\"darwin\"]} (current: {\"os\":\"win32\",\"cpu\":\"x64\"})",
+    "package": {
+      "id": "r2.cnpmjs.org/fsevents/2.3.2",
+      "name": "fsevents",
+      "version": "2.3.2"
+    },
+    "prefix": "D:\\study\\my-app",
+    "reason": "unsupported_platform"
+  },
+  "85 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/fsevents/2.3.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "fsevents",
+      "rawSpec": "^2.3.2"
+    }
+  },
+  "86 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/fsevents/2.3.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "87 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/aria-query/5.0.0",
+    "size": 30068,
+    "status": "started"
+  },
+  "88 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/invariant/2.2.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "89 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "size": 37485,
+    "status": "started"
+  },
+  "90 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/redent/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "91 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "size": 2842,
+    "status": "started"
+  },
+  "92 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@testing-library/dom/8.13.0",
+    "wanted": {
+      "dependentId": "/@testing-library/react/12.1.4",
+      "name": "@testing-library/dom",
+      "rawSpec": "^8.0.0"
+    }
+  },
+  "93 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/dom/8.13.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "@pmmmwh/react-refresh-webpack-plugin",
+      "rawSpec": "^0.5.3"
+    }
+  },
+  "95 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "96 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "@babel/core",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "98 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/core/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "99 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/dom-accessibility-api/0.5.13",
+    "size": 64614,
+    "status": "started"
+  },
+  "100 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/lodash/4.17.21",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "lodash",
+      "rawSpec": "^4.17.15"
+    }
+  },
+  "101 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/lodash/4.17.21",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "102 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react/17.0.2",
+    "size": 74686,
+    "status": "started"
+  },
+  "103 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/babel-jest/27.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "babel-jest",
+      "rawSpec": "^27.4.2"
+    }
+  },
+  "104 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "105 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/aria-query/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "106 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+    "size": 39806,
+    "status": "started"
+  },
+  "107 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/core/7.17.9",
+    "size": 60080,
+    "status": "started"
+  },
+  "108 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/css.escape/1.5.1",
+    "size": 2955,
+    "status": "started"
+  },
+  "109 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "110 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/bfj/7.0.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "bfj",
+      "rawSpec": "^7.0.2"
+    }
+  },
+  "111 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/bfj/7.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "112 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@testing-library/dom/8.13.0",
+    "size": 489730,
+    "status": "started"
+  },
+  "113 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/css.escape/1.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-plugin-named-asset-import/0.3.8",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "babel-plugin-named-asset-import",
+      "rawSpec": "^0.3.8"
+    }
+  },
+  "115 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-named-asset-import/0.3.8",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "116 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "@svgr/webpack",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "117 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "118 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/babel-jest/27.5.1",
+    "size": 4260,
+    "status": "started"
+  },
+  "119 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/object-assign/4.1.1",
+    "size": 2675,
+    "status": "started"
+  },
+  "120 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/react-router/6.3.0",
+    "wanted": {
+      "dependentId": "/react-router-dom/6.3.0",
+      "name": "react-router",
+      "rawSpec": "6.3.0"
+    }
+  },
+  "121 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/react-router/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "122 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/case-sensitive-paths-webpack-plugin/2.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "case-sensitive-paths-webpack-plugin",
+      "rawSpec": "^2.4.0"
+    }
+  },
+  "123 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/case-sensitive-paths-webpack-plugin/2.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "124 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/bfj/7.0.2",
+    "size": 47833,
+    "status": "started"
+  },
+  "125 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "126 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/babel-plugin-named-asset-import/0.3.8",
+    "size": 1817,
+    "status": "started"
+  },
+  "127 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+    "size": 4520,
+    "status": "started"
+  },
+  "128 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/3.0.0",
+    "wanted": {
+      "dependentId": "/@testing-library/jest-dom/5.16.4",
+      "name": "chalk",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "129 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/object-assign/4.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "131 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/react-router/6.3.0",
+    "size": 128985,
+    "status": "started"
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-named-asset-import/0.3.8",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "134 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/css-loader/6.7.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "css-loader",
+      "rawSpec": "^6.5.1"
+    }
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/css-loader/6.7.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/lodash/4.17.21",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/dom-accessibility-api/0.5.13",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/core/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "141 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/case-sensitive-paths-webpack-plugin/2.4.0",
+    "size": 8390,
+    "status": "started"
+  },
+  "142 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/dotenv-expand/5.1.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "dotenv-expand",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "143 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/dotenv-expand/5.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "144 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/bfj/7.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "145 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/case-sensitive-paths-webpack-plugin/2.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "146 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/react-router/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "147 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "babel-preset-react-app",
+      "rawSpec": "^10.0.1"
+    }
+  },
+  "148 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "149 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/css-loader/6.7.1",
+    "size": 29352,
+    "status": "started"
+  },
+  "150 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@testing-library/dom/8.13.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "151 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/babel-loader/8.2.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "babel-loader",
+      "rawSpec": "^8.2.3"
+    }
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-loader/8.2.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/css-loader/6.7.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "154 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/camelcase/6.3.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "camelcase",
+      "rawSpec": "^6.2.1"
+    }
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/camelcase/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "156 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/identity-obj-proxy/3.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "identity-obj-proxy",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/identity-obj-proxy/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "158 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/babel-loader/8.2.4",
+    "size": 13722,
+    "status": "started"
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-loader/8.2.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "160 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/camelcase/6.3.0",
+    "size": 3843,
+    "status": "started"
+  },
+  "161 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+    "size": 5498,
+    "status": "started"
+  },
+  "162 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/camelcase/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "164 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/css-minimizer-webpack-plugin/3.4.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "css-minimizer-webpack-plugin",
+      "rawSpec": "^3.2.0"
+    }
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/css-minimizer-webpack-plugin/3.4.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "166 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "eslint-config-react-app",
+      "rawSpec": "^7.0.0"
+    }
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "168 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "eslint-webpack-plugin",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "170 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/identity-obj-proxy/3.0.0",
+    "size": 5262,
+    "status": "started"
+  },
+  "171 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-resolve/27.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "jest-resolve",
+      "rawSpec": "^27.4.2"
+    }
+  },
+  "172 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-resolve/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "173 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/identity-obj-proxy/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "174 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/fs-extra/10.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "fs-extra",
+      "rawSpec": "^10.0.0"
+    }
+  },
+  "175 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/fs-extra/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "176 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "jest-watch-typeahead",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "177 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "178 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/mini-css-extract-plugin/2.6.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "mini-css-extract-plugin",
+      "rawSpec": "^2.4.5"
+    }
+  },
+  "179 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/mini-css-extract-plugin/2.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "180 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/dotenv-expand/5.1.0",
+    "size": 12587,
+    "status": "started"
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/dotenv-expand/5.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "182 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/browserslist/4.20.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "browserslist",
+      "rawSpec": "^4.18.1"
+    }
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/browserslist/4.20.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "184 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/fs-extra/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "185 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/css-minimizer-webpack-plugin/3.4.1",
+    "size": 15289,
+    "status": "started"
+  },
+  "186 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/css-minimizer-webpack-plugin/3.4.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "187 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+    "size": 5955,
+    "status": "started"
+  },
+  "188 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-normalize/10.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "postcss-normalize",
+      "rawSpec": "^10.0.1"
+    }
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-normalize/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "191 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint/8.12.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "eslint",
+      "rawSpec": "^8.3.0"
+    }
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint/8.12.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "193 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+    "size": 11679,
+    "status": "started"
+  },
+  "194 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/mini-css-extract-plugin/2.6.0",
+    "size": 27314,
+    "status": "started"
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "196 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/dotenv/10.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "dotenv",
+      "rawSpec": "^10.0.0"
+    }
+  },
+  "197 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/dotenv/10.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "198 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+    "size": 5961,
+    "status": "started"
+  },
+  "199 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-resolve/27.5.1",
+    "size": 11377,
+    "status": "started"
+  },
+  "200 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/browserslist/4.20.2",
+    "size": 16967,
+    "status": "started"
+  },
+  "201 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/prompts/2.4.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "prompts",
+      "rawSpec": "^2.4.2"
+    }
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/prompts/2.4.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "203 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-app-polyfill/3.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "react-app-polyfill",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-app-polyfill/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "205 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/file-loader/6.2.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "file-loader",
+      "rawSpec": "^6.2.0"
+    }
+  },
+  "206 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/file-loader/6.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "207 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/postcss-normalize/10.0.1",
+    "size": 8021,
+    "status": "started"
+  },
+  "208 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/mini-css-extract-plugin/2.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "209 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "210 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint/8.12.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "211 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/html-webpack-plugin/5.5.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "html-webpack-plugin",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "212 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/html-webpack-plugin/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "213 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-loader/6.2.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "postcss-loader",
+      "rawSpec": "^6.2.1"
+    }
+  },
+  "214 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-loader/6.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "215 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/dotenv/10.0.0",
+    "size": 9371,
+    "status": "started"
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/prompts/2.4.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "217 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-resolve/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "218 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-normalize/10.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "219 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/dotenv/10.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "220 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/browserslist/4.20.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "221 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/resolve/1.22.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "resolve",
+      "rawSpec": "^1.20.0"
+    }
+  },
+  "222 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/resolve/1.22.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "223 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-dev-utils/12.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "react-dev-utils",
+      "rawSpec": "^12.0.0"
+    }
+  },
+  "224 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-dev-utils/12.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "225 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/resolve-url-loader/4.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "resolve-url-loader",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "226 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/resolve-url-loader/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "227 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/style-loader/3.3.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "style-loader",
+      "rawSpec": "^3.3.1"
+    }
+  },
+  "228 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/style-loader/3.3.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "229 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/file-loader/6.2.0",
+    "size": 10055,
+    "status": "started"
+  },
+  "230 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/file-loader/6.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "231 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/html-webpack-plugin/5.5.0",
+    "size": 40421,
+    "status": "started"
+  },
+  "232 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/html-webpack-plugin/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/sass-loader/12.6.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "sass-loader",
+      "rawSpec": "^12.3.0"
+    }
+  },
+  "234 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/sass-loader/12.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "235 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/source-map-loader/3.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "source-map-loader",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "236 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/source-map-loader/3.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "237 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/postcss-preset-env/7.4.3",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "postcss-preset-env",
+      "rawSpec": "^7.0.1"
+    }
+  },
+  "238 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/postcss-preset-env/7.4.3",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "239 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/resolve/1.22.0",
+    "size": 27736,
+    "status": "started"
+  },
+  "240 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-dev-utils/12.0.0",
+    "size": 34536,
+    "status": "started"
+  },
+  "241 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/style-loader/3.3.1",
+    "size": 13099,
+    "status": "started"
+  },
+  "242 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/sass-loader/12.6.0",
+    "size": 22460,
+    "status": "started"
+  },
+  "243 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/resolve/1.22.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "244 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-flexbugs-fixes/5.0.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "postcss-flexbugs-fixes",
+      "rawSpec": "^5.0.2"
+    }
+  },
+  "245 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-flexbugs-fixes/5.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "246 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/source-map-loader/3.0.1",
+    "size": 9201,
+    "status": "started"
+  },
+  "247 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/style-loader/3.3.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "248 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-dev-utils/12.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "249 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-dom/17.0.2",
+      "name": "loose-envify",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "250 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/object-assign/4.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-dom/17.0.2",
+      "name": "object-assign",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "251 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/source-map-loader/3.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "252 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/sass-loader/12.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "253 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/postcss-preset-env/7.4.3",
+    "size": 24549,
+    "status": "started"
+  },
+  "254 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react/17.0.2",
+      "name": "loose-envify",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "255 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/object-assign/4.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react/17.0.2",
+      "name": "object-assign",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "256 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/invariant/2.2.4",
+      "name": "loose-envify",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "257 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/postcss-preset-env/7.4.3",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "258 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/postcss-flexbugs-fixes/5.0.2",
+    "size": 3274,
+    "status": "started"
+  },
+  "259 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-flexbugs-fixes/5.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "260 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/regenerator-runtime/0.13.9",
+    "wanted": {
+      "dependentId": "/@babel/runtime/7.17.9",
+      "name": "regenerator-runtime",
+      "rawSpec": "^0.13.4"
+    }
+  },
+  "261 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/regenerator-runtime/0.13.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "262 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/semver/7.3.6",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "263 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/semver/7.3.6",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "264 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/webpack-dev-server/4.8.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "webpack-dev-server",
+      "rawSpec": "^4.6.0"
+    }
+  },
+  "265 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack-dev-server/4.8.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "266 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/workbox-webpack-plugin/6.5.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "workbox-webpack-plugin",
+      "rawSpec": "^6.4.1"
+    }
+  },
+  "267 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/workbox-webpack-plugin/6.5.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "268 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/terser-webpack-plugin/5.3.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "terser-webpack-plugin",
+      "rawSpec": "^5.2.5"
+    }
+  },
+  "269 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/terser-webpack-plugin/5.3.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "270 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest/27.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "jest",
+      "rawSpec": "^27.4.3"
+    }
+  },
+  "271 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "272 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.12.5"
+    }
+  },
+  "273 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/postcss-loader/6.2.1",
+    "size": 11721,
+    "status": "started"
+  },
+  "274 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/regenerator-runtime/0.13.9",
+    "size": 8437,
+    "status": "started"
+  },
+  "275 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/aria-query/5.0.0",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "aria-query",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "276 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "chalk",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "277 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/4.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "278 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/dom-accessibility-api/0.5.13",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "dom-accessibility-api",
+      "rawSpec": "^0.5.9"
+    }
+  },
+  "279 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/regenerator-runtime/0.13.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "280 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-loader/6.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "281 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/4.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "282 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/semver/7.3.6",
+    "size": 24984,
+    "status": "started"
+  },
+  "283 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/webpack-dev-server/4.8.1",
+    "size": 103831,
+    "status": "started"
+  },
+  "284 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/semver/7.3.6",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "285 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/workbox-webpack-plugin/6.5.2",
+    "size": 31499,
+    "status": "started"
+  },
+  "286 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "/history/5.3.0",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.7.6"
+    }
+  },
+  "287 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/history/5.3.0",
+    "wanted": {
+      "dependentId": "/react-router/6.3.0",
+      "name": "history",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "288 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/workbox-webpack-plugin/6.5.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "289 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/lz-string/1.4.4",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "lz-string",
+      "rawSpec": "^1.4.4"
+    }
+  },
+  "290 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/lz-string/1.4.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "291 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack-dev-server/4.8.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "292 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/resolve-url-loader/4.0.0",
+    "size": 30878,
+    "status": "started"
+  },
+  "293 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest/27.5.1",
+    "size": 2226,
+    "status": "started"
+  },
+  "294 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "295 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/resolve-url-loader/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "296 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/inherits/2.0.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/css/3.0.0",
+      "name": "inherits",
+      "rawSpec": "^2.0.4"
+    }
+  },
+  "297 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/inherits/2.0.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "298 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/css/3.0.0",
+      "name": "source-map-resolve",
+      "rawSpec": "^0.6.0"
+    }
+  },
+  "299 debug pnpm:deprecation": {
+    "deprecated": "See https://github.com/lydell/source-map-resolve#deprecated",
+    "depth": 2,
+    "pkgId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+    "pkgName": "source-map-resolve",
+    "pkgVersion": "0.6.0",
+    "prefix": "D:\\study\\my-app"
+  },
+  "300 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "301 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/inherits/2.0.4",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "302 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/lz-string/1.4.4",
+    "size": 35293,
+    "status": "started"
+  },
+  "303 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/lz-string/1.4.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "304 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/strip-indent/3.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/redent/3.0.0",
+      "name": "strip-indent",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "305 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/strip-indent/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "306 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/strip-indent/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "307 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/chalk/3.0.0",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "308 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-styles/4.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "309 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-styles/4.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "310 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+    "size": 7637,
+    "status": "started"
+  },
+  "311 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/source-map/0.6.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/css/3.0.0",
+      "name": "source-map",
+      "rawSpec": "^0.6.1"
+    }
+  },
+  "312 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map/0.6.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "313 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "314 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map/0.6.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "315 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/chalk/3.0.0",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "316 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/supports-color/7.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "317 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/supports-color/7.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "318 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/indent-string/4.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/redent/3.0.0",
+      "name": "indent-string",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "319 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/indent-string/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "320 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/indent-string/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "321 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/decode-uri-component/0.2.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+      "name": "decode-uri-component",
+      "rawSpec": "^0.2.0"
+    }
+  },
+  "322 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/decode-uri-component/0.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "323 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/color-convert/2.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/ansi-styles/4.3.0",
+      "name": "color-convert",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "324 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/color-convert/2.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "325 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/scheduler/0.20.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-dom/17.0.2",
+      "name": "scheduler",
+      "rawSpec": "^0.20.2"
+    }
+  },
+  "326 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/scheduler/0.20.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "327 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/color-convert/2.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "328 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@types/aria-query/4.2.2",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "@types/aria-query",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "329 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/aria-query/4.2.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "330 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/code-frame/7.16.7",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "@babel/code-frame",
+      "rawSpec": "^7.10.4"
+    }
+  },
+  "331 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/code-frame/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "332 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@types/jest/27.4.1",
+    "wanted": {
+      "dependentId": "/@types/testing-library__jest-dom/5.14.3",
+      "name": "@types/jest",
+      "rawSpec": "*"
+    }
+  },
+  "333 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/jest/27.4.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "334 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/atob/2.1.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/source-map-resolve/0.6.0",
+      "name": "atob",
+      "rawSpec": "^2.1.2"
+    }
+  },
+  "335 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/atob/2.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "336 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/decode-uri-component/0.2.0",
+    "size": 2691,
+    "status": "started"
+  },
+  "337 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/decode-uri-component/0.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "338 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@types/aria-query/4.2.2",
+    "size": 3854,
+    "status": "started"
+  },
+  "339 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loose-envify/1.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/scheduler/0.20.2",
+      "name": "loose-envify",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "340 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/object-assign/4.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/scheduler/0.20.2",
+      "name": "object-assign",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "341 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/aria-query/4.2.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "342 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/code-frame/7.16.7",
+    "size": 2881,
+    "status": "started"
+  },
+  "343 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/code-frame/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "344 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@types/jest/27.4.1",
+    "size": 15943,
+    "status": "started"
+  },
+  "345 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/jest/27.4.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "346 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/color-name/1.1.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/color-convert/2.0.1",
+      "name": "color-name",
+      "rawSpec": "~1.1.4"
+    }
+  },
+  "347 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/color-name/1.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "348 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/atob/2.1.2",
+    "size": 12721,
+    "status": "started"
+  },
+  "349 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/atob/2.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "350 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/css/3.0.0",
+    "size": 9437,
+    "status": "started"
+  },
+  "351 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/color-name/1.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "352 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/css/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "353 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/min-indent/1.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/strip-indent/3.0.0",
+      "name": "min-indent",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "354 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/min-indent/1.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "355 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/min-indent/1.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "356 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/chalk/3.0.0",
+    "size": 10923,
+    "status": "started"
+  },
+  "357 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-is/16.13.1",
+    "wanted": {
+      "dependentId": "/prop-types/15.8.1",
+      "name": "react-is",
+      "rawSpec": "^16.13.1"
+    }
+  },
+  "358 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-is/16.13.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "359 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/terser-webpack-plugin/5.3.1",
+    "size": 18714,
+    "status": "started"
+  },
+  "360 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "361 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-app-polyfill/3.0.0",
+    "size": 2820,
+    "status": "started"
+  },
+  "362 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-app-polyfill/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "363 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/terser-webpack-plugin/5.3.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "364 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-matcher-utils/27.5.1",
+    "wanted": {
+      "dependentId": "/@types/jest/27.4.1",
+      "name": "jest-matcher-utils",
+      "rawSpec": "^27.0.0"
+    }
+  },
+  "365 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-matcher-utils/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "366 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/has-flag/4.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/supports-color/7.2.0",
+      "name": "has-flag",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "367 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/has-flag/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "368 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/scheduler/0.20.2",
+    "size": 20245,
+    "status": "started"
+  },
+  "369 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/has-flag/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "370 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/scheduler/0.20.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "371 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@types/react/17.0.43",
+    "wanted": {
+      "dependentId": "/@types/react-dom/17.0.14",
+      "name": "@types/react",
+      "rawSpec": "*"
+    }
+  },
+  "372 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/react/17.0.43",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "373 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/pretty-format/27.5.1",
+    "wanted": {
+      "dependentId": "/@testing-library/dom/8.13.0",
+      "name": "pretty-format",
+      "rawSpec": "^27.0.2"
+    }
+  },
+  "374 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/pretty-format/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "375 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/pretty-format/27.5.1",
+    "wanted": {
+      "dependentId": "/@types/jest/27.4.1",
+      "name": "pretty-format",
+      "rawSpec": "^27.0.0"
+    }
+  },
+  "376 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/chalk/4.1.2",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "377 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/chalk/4.1.2",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "378 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/ansi-styles/5.2.0",
+    "wanted": {
+      "dependentId": "/pretty-format/27.5.1",
+      "name": "ansi-styles",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "379 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-styles/5.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "380 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-is/17.0.2",
+    "wanted": {
+      "dependentId": "/pretty-format/27.5.1",
+      "name": "react-is",
+      "rawSpec": "^17.0.1"
+    }
+  },
+  "381 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-is/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "382 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/jest-matcher-utils/27.5.1",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "383 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@types/prop-types/15.7.4",
+    "wanted": {
+      "dependentId": "/@types/react/17.0.43",
+      "name": "@types/prop-types",
+      "rawSpec": "*"
+    }
+  },
+  "384 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/prop-types/15.7.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "385 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-styles/5.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "386 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-is/17.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "387 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@types/scheduler/0.16.2",
+    "wanted": {
+      "dependentId": "/@types/react/17.0.43",
+      "name": "@types/scheduler",
+      "rawSpec": "*"
+    }
+  },
+  "388 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/scheduler/0.16.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "389 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@types/react/17.0.43",
+    "size": 33908,
+    "status": "started"
+  },
+  "390 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/react/17.0.43",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "391 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/ansi-regex/5.0.1",
+    "wanted": {
+      "dependentId": "/pretty-format/27.5.1",
+      "name": "ansi-regex",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "392 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-regex/5.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "393 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/pretty-format/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-matcher-utils/27.5.1",
+      "name": "pretty-format",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "394 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-regex/5.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "395 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/pretty-format/27.5.1",
+    "size": 15790,
+    "status": "started"
+  },
+  "396 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/js-tokens/4.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/loose-envify/1.4.0",
+      "name": "js-tokens",
+      "rawSpec": "^3.0.0 || ^4.0.0"
+    }
+  },
+  "397 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/js-tokens/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "398 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-matcher-utils/27.5.1",
+    "size": 8007,
+    "status": "started"
+  },
+  "399 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@types/prop-types/15.7.4",
+    "size": 2664,
+    "status": "started"
+  },
+  "400 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/js-tokens/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "401 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/prop-types/15.7.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "402 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-matcher-utils/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "403 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/pretty-format/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "404 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@types/scheduler/0.16.2",
+    "size": 3164,
+    "status": "started"
+  },
+  "405 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/scheduler/0.16.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "406 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/csstype/3.0.11",
+    "wanted": {
+      "dependentId": "/@types/react/17.0.43",
+      "name": "csstype",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "407 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/csstype/3.0.11",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "408 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-get-type/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-matcher-utils/27.5.1",
+      "name": "jest-get-type",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "409 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-get-type/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "410 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/csstype/3.0.11",
+    "size": 175754,
+    "status": "started"
+  },
+  "411 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-get-type/27.5.1",
+    "size": 1771,
+    "status": "started"
+  },
+  "412 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/csstype/3.0.11",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "413 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-get-type/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "414 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/postcss/8.4.12",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "postcss",
+      "rawSpec": "^8.4.4"
+    }
+  },
+  "415 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/postcss/8.4.12",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "416 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/postcss/8.4.12",
+    "size": 43982,
+    "status": "started"
+  },
+  "417 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/postcss/8.4.12",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "418 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/webpack/5.72.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "webpack",
+      "rawSpec": "^5.64.4"
+    }
+  },
+  "419 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack/5.72.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "420 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/webpack/5.72.0",
+    "size": 866899,
+    "status": "started"
+  },
+  "421 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/highlight/7.17.9",
+    "wanted": {
+      "dependentId": "/@babel/code-frame/7.16.7",
+      "name": "@babel/highlight",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "422 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/highlight/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "423 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/2.4.2",
+    "wanted": {
+      "dependentId": "/@babel/highlight/7.17.9",
+      "name": "chalk",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "424 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/2.4.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "425 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/js-tokens/4.0.0",
+    "wanted": {
+      "dependentId": "/@babel/highlight/7.17.9",
+      "name": "js-tokens",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "426 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/chalk/2.4.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "427 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/highlight/7.17.9",
+    "size": 2358,
+    "status": "started"
+  },
+  "428 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/highlight/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "429 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/react-refresh/0.11.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "react-refresh",
+      "rawSpec": "^0.11.0"
+    }
+  },
+  "430 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-refresh/0.11.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "431 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/webpack-manifest-plugin/4.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "webpack-manifest-plugin",
+      "rawSpec": "^4.0.2"
+    }
+  },
+  "432 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack-manifest-plugin/4.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "433 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/tailwindcss/3.0.23",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/react-scripts/5.0.0",
+      "name": "tailwindcss",
+      "rawSpec": "^3.0.2"
+    }
+  },
+  "434 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/tailwindcss/3.0.23",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "435 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/source-map/0.7.3",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "source-map",
+      "rawSpec": "^0.7.3"
+    }
+  },
+  "436 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map/0.7.3",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "437 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/code-frame/7.16.7",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/code-frame",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "438 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/webpack-manifest-plugin/4.1.1",
+    "size": 11519,
+    "status": "started"
+  },
+  "439 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack/5.72.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "440 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/webpack-manifest-plugin/4.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "441 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/source-map/0.7.3",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "442 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/common-path-prefix/3.0.0",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "common-path-prefix",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "443 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/common-path-prefix/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "444 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/ansi-html-community/0.0.8",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "ansi-html-community",
+      "rawSpec": "^0.0.8"
+    }
+  },
+  "445 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-html-community/0.0.8",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "446 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/core-js-pure/3.21.1",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "core-js-pure",
+      "rawSpec": "^3.8.1"
+    }
+  },
+  "447 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/core-js-pure/3.21.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "448 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/html-entities/2.3.3",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "html-entities",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "449 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/html-entities/2.3.3",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "450 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-is/16.13.1",
+    "size": 5463,
+    "status": "started"
+  },
+  "451 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-is/16.13.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "452 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/find-up/5.0.0",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "find-up",
+      "rawSpec": "^5.0.0"
+    }
+  },
+  "453 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/find-up/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "454 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/error-stack-parser/2.0.7",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "error-stack-parser",
+      "rawSpec": "^2.0.6"
+    }
+  },
+  "455 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/error-stack-parser/2.0.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "456 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/helper-compilation-targets/7.17.7",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/helper-compilation-targets",
+      "rawSpec": "^7.17.7"
+    }
+  },
+  "457 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-compilation-targets/7.17.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "458 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/helper-module-transforms/7.17.7",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/helper-module-transforms",
+      "rawSpec": "^7.17.7"
+    }
+  },
+  "459 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-module-transforms/7.17.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "460 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/schema-utils/3.1.1",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "schema-utils",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "461 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/schema-utils/3.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "462 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/core-js-pure/3.21.1",
+    "size": 200824,
+    "status": "started"
+  },
+  "463 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/html-entities/2.3.3",
+    "size": 32036,
+    "status": "started"
+  },
+  "464 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/ansi-html-community/0.0.8",
+    "size": 7498,
+    "status": "started"
+  },
+  "465 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@ampproject/remapping/2.1.2",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@ampproject/remapping",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "466 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@ampproject/remapping/2.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "467 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/helper-compilation-targets/7.17.7",
+    "size": 5143,
+    "status": "started"
+  },
+  "468 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/error-stack-parser/2.0.7",
+    "size": 9769,
+    "status": "started"
+  },
+  "469 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/ansi-html-community/0.0.8",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "470 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/tailwindcss/3.0.23",
+    "size": 630282,
+    "status": "started"
+  },
+  "471 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/helper-module-transforms/7.17.7",
+    "size": 9497,
+    "status": "started"
+  },
+  "472 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/common-path-prefix/3.0.0",
+    "size": 1964,
+    "status": "started"
+  },
+  "473 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/react-refresh/0.11.0",
+    "size": 15684,
+    "status": "started"
+  },
+  "474 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/html-entities/2.3.3",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "475 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-compilation-targets/7.17.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "476 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@ampproject/remapping/2.1.2",
+    "size": 17497,
+    "status": "started"
+  },
+  "477 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "wanted": {
+      "dependentId": "/@pmmmwh/react-refresh-webpack-plugin/0.5.5",
+      "name": "loader-utils",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "478 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "479 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/common-path-prefix/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "480 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/error-stack-parser/2.0.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "481 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-module-transforms/7.17.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "482 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/find-up/5.0.0",
+    "size": 3806,
+    "status": "started"
+  },
+  "483 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/convert-source-map/1.8.0",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "convert-source-map",
+      "rawSpec": "^1.7.0"
+    }
+  },
+  "484 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/convert-source-map/1.8.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "485 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/semver/6.3.0",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "semver",
+      "rawSpec": "^6.3.0"
+    }
+  },
+  "486 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/semver/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "487 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/react-refresh/0.11.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "488 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/gensync/1.0.0-beta.2",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "gensync",
+      "rawSpec": "^1.0.0-beta.2"
+    }
+  },
+  "489 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/gensync/1.0.0-beta.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "490 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-diff/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-matcher-utils/27.5.1",
+      "name": "jest-diff",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "491 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-diff/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "492 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/find-up/5.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "493 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/convert-source-map/1.8.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "494 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@ampproject/remapping/2.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "495 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/semver/6.3.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "496 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/gensync/1.0.0-beta.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "497 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/traverse/7.17.9",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/traverse",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "498 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/traverse/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "499 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/types/7.17.0",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/types",
+      "rawSpec": "^7.17.0"
+    }
+  },
+  "500 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/types/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "501 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "size": 11727,
+    "status": "started"
+  },
+  "502 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "debug",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "503 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/debug/4.3.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "504 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/generator/7.17.9",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/generator",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "505 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/generator/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "506 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/template/7.16.7",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/template",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "507 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/template/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "508 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "509 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/debug/4.3.4",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "510 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-diff/27.5.1",
+    "size": 20495,
+    "status": "started"
+  },
+  "511 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/traverse/7.17.9",
+    "size": 34523,
+    "status": "started"
+  },
+  "512 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "513 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@types/babel__core/7.1.19",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "@types/babel__core",
+      "rawSpec": "^7.1.14"
+    }
+  },
+  "514 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/babel__core/7.1.19",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "515 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/helper-validator-identifier/7.16.7",
+    "wanted": {
+      "dependentId": "/@babel/highlight/7.17.9",
+      "name": "@babel/helper-validator-identifier",
+      "rawSpec": "^7.16.7"
+    }
+  },
+  "516 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-validator-identifier/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "517 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/types/7.17.0",
+    "size": 126580,
+    "status": "started"
+  },
+  "518 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/generator/7.17.9",
+    "size": 23108,
+    "status": "started"
+  },
+  "519 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/template/7.16.7",
+    "size": 5982,
+    "status": "started"
+  },
+  "520 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@types/babel__core/7.1.19",
+    "size": 9393,
+    "status": "started"
+  },
+  "521 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/parser/7.17.9",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/parser",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "522 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/parser/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "523 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-diff/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "524 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/helper-validator-identifier/7.16.7",
+    "size": 7185,
+    "status": "started"
+  },
+  "525 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/template/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "526 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/json5/2.2.1",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "json5",
+      "rawSpec": "^2.2.1"
+    }
+  },
+  "527 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/json5/2.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "528 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/helpers/7.17.9",
+    "wanted": {
+      "dependentId": "/@babel/core/7.17.9",
+      "name": "@babel/helpers",
+      "rawSpec": "^7.17.9"
+    }
+  },
+  "529 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helpers/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "530 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/parser/7.17.9",
+    "size": 415214,
+    "status": "started"
+  },
+  "531 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/traverse/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "532 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/json5/2.2.1",
+    "size": 46539,
+    "status": "started"
+  },
+  "533 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.9"
+    }
+  },
+  "534 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "535 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@babel/core",
+      "rawSpec": "^7.12.3"
+    }
+  },
+  "536 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/hoopy/0.1.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/bfj/7.0.2",
+      "name": "hoopy",
+      "rawSpec": "^0.1.4"
+    }
+  },
+  "537 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/hoopy/0.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "538 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@jest/types/27.5.1",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "@jest/types",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "539 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@jest/types/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "540 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/tryer/1.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/bfj/7.0.2",
+      "name": "tryer",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "541 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/tryer/1.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "542 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@jest/transform/27.5.1",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "@jest/transform",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "543 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@jest/transform/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "544 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@types/babel__core/7.1.19",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "545 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/check-types/11.1.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/bfj/7.0.2",
+      "name": "check-types",
+      "rawSpec": "^11.1.1"
+    }
+  },
+  "546 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/check-types/11.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "547 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/helpers/7.17.9",
+    "size": 25019,
+    "status": "started"
+  },
+  "548 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helper-validator-identifier/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "549 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/generator/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "550 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/hoopy/0.1.4",
+    "size": 6633,
+    "status": "started"
+  },
+  "551 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "size": 9770,
+    "status": "started"
+  },
+  "552 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@jest/types/27.5.1",
+    "size": 6496,
+    "status": "started"
+  },
+  "553 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/slash/3.0.0",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "slash",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "554 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/slash/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "555 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/hoopy/0.1.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "556 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/check-types/11.1.2",
+    "size": 16934,
+    "status": "started"
+  },
+  "557 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@jest/transform/27.5.1",
+    "size": 12054,
+    "status": "started"
+  },
+  "558 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/slash/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "559 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "560 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-transform-react-constant-elements/7.17.6",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@babel/plugin-transform-react-constant-elements",
+      "rawSpec": "^7.12.1"
+    }
+  },
+  "561 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-constant-elements/7.17.6",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "562 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "loader-utils",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "563 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@jest/types/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "564 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/preset-env/7.16.11",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@babel/preset-env",
+      "rawSpec": "^7.12.1"
+    }
+  },
+  "565 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-env/7.16.11",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "566 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/helpers/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "567 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/postcss/8.4.12",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss",
+      "rawSpec": "^8.4.7"
+    }
+  },
+  "568 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@svgr/core/5.5.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@svgr/core",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "569 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/core/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "570 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@jest/transform/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "571 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@svgr/plugin-svgo/5.5.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@svgr/plugin-svgo",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "572 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-svgo/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "573 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/check-types/11.1.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "574 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/icss-utils/5.1.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "icss-utils",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "575 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/icss-utils/5.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "576 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/json5/2.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "577 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-constant-elements/7.17.6",
+    "size": 2850,
+    "status": "started"
+  },
+  "578 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/icss-utils/5.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "579 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@svgr/plugin-jsx/5.5.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@svgr/plugin-jsx",
+      "rawSpec": "^5.5.0"
+    }
+  },
+  "580 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-jsx/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "581 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-modules-extract-imports/3.0.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss-modules-extract-imports",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "582 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-extract-imports/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "583 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/semver/7.3.6",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "584 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/core",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "585 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/preset-env/7.16.11",
+    "size": 11848,
+    "status": "started"
+  },
+  "586 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-modules-local-by-default/4.0.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss-modules-local-by-default",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "587 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-local-by-default/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "588 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@svgr/core/5.5.0",
+    "size": 6288,
+    "status": "started"
+  },
+  "589 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-modules-scope/3.0.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss-modules-scope",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "590 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-scope/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "591 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-constant-elements/7.17.6",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "592 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-extract-imports/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "593 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-plugin-istanbul/6.1.1",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "babel-plugin-istanbul",
+      "rawSpec": "^6.1.1"
+    }
+  },
+  "594 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-istanbul/6.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "595 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-local-by-default/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "596 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-jsx/5.5.0",
+    "size": 3409,
+    "status": "started"
+  },
+  "597 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-modules-values/4.0.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss-modules-values",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "598 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-values/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "599 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-scope/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "600 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-svgo/5.5.0",
+    "size": 4027,
+    "status": "started"
+  },
+  "601 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-decorators/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-decorators",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "602 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-decorators/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "603 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/postcss-value-parser/4.2.0",
+    "wanted": {
+      "dependentId": "/css-loader/6.7.1",
+      "name": "postcss-value-parser",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "604 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-value-parser/4.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "605 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-private-methods/7.16.11",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-private-methods",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "606 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-private-methods/7.16.11",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "607 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-env/7.16.11",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "608 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-transform-flow-strip-types/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-transform-flow-strip-types",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "609 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-flow-strip-types/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "610 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/preset-env/7.16.11",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/preset-env",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "611 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/core/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "612 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-modules-values/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "613 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-transform-react-display-name/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-transform-react-display-name",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "614 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-display-name/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "615 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-jsx/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "616 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-istanbul/6.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "617 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/bluebird/3.7.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/bfj/7.0.2",
+      "name": "bluebird",
+      "rawSpec": "^3.5.5"
+    }
+  },
+  "618 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/bluebird/3.7.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "619 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-decorators/7.17.9",
+    "size": 11847,
+    "status": "started"
+  },
+  "620 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/postcss-value-parser/4.2.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "621 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-private-methods/7.16.11",
+    "size": 1637,
+    "status": "started"
+  },
+  "622 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-flow-strip-types/7.16.7",
+    "size": 2596,
+    "status": "started"
+  },
+  "623 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-display-name/7.16.7",
+    "size": 2249,
+    "status": "started"
+  },
+  "624 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@svgr/plugin-svgo/5.5.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "625 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/runtime/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/runtime",
+      "rawSpec": "^7.16.3"
+    }
+  },
+  "626 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/preset-react/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/@svgr/webpack/5.5.0",
+      "name": "@babel/preset-react",
+      "rawSpec": "^7.12.5"
+    }
+  },
+  "627 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-react/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "628 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/preset-react/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/preset-react",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "629 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/loader-utils/2.0.2",
+    "wanted": {
+      "dependentId": "/babel-loader/8.2.4",
+      "name": "loader-utils",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "630 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-private-methods/7.16.11",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "631 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-flow-strip-types/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "632 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/bluebird/3.7.2",
+    "size": 139293,
+    "status": "started"
+  },
+  "633 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-react-display-name/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "634 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/preset-typescript/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/preset-typescript",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "635 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-typescript/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "636 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/schema-utils/2.7.1",
+    "wanted": {
+      "dependentId": "/babel-loader/8.2.4",
+      "name": "schema-utils",
+      "rawSpec": "^2.6.5"
+    }
+  },
+  "637 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/schema-utils/2.7.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "638 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-decorators/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "639 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/types/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "640 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-plugin-transform-react-remove-prop-types/0.4.24",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "babel-plugin-transform-react-remove-prop-types",
+      "rawSpec": "^0.4.24"
+    }
+  },
+  "641 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-transform-react-remove-prop-types/0.4.24",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "642 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/core-js-pure/3.21.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "643 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/bluebird/3.7.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "644 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/harmony-reflect/1.6.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/identity-obj-proxy/3.0.0",
+      "name": "harmony-reflect",
+      "rawSpec": "^1.4.6"
+    }
+  },
+  "645 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/harmony-reflect/1.6.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "646 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/postcss/8.4.12",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "postcss",
+      "rawSpec": "^8.3.5"
+    }
+  },
+  "647 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/schema-utils/4.0.0",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "schema-utils",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "648 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/schema-utils/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "649 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/parser/7.17.9",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "650 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/schema-utils/2.7.1",
+    "size": 16977,
+    "status": "started"
+  },
+  "651 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-nullish-coalescing-operator/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-nullish-coalescing-operator",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "652 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-nullish-coalescing-operator/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "653 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-worker/27.5.1",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "jest-worker",
+      "rawSpec": "^27.0.2"
+    }
+  },
+  "654 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-worker/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "655 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-plugin-macros/3.1.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "babel-plugin-macros",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "656 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-macros/3.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "657 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/source-map/0.6.1",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "source-map",
+      "rawSpec": "^0.6.1"
+    }
+  },
+  "658 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/core/7.17.9",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "@babel/core",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "659 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/schema-utils/2.7.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "660 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/tailwindcss/3.0.23",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "661 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-optional-chaining/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-optional-chaining",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "662 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-optional-chaining/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "663 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/preset-react/7.16.7",
+    "size": 4065,
+    "status": "started"
+  },
+  "664 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-react/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "665 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/find-cache-dir/3.3.2",
+    "wanted": {
+      "dependentId": "/babel-loader/8.2.4",
+      "name": "find-cache-dir",
+      "rawSpec": "^3.3.1"
+    }
+  },
+  "666 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/find-cache-dir/3.3.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "667 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/eslint-parser/7.17.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "@babel/eslint-parser",
+      "rawSpec": "^7.16.3"
+    }
+  },
+  "668 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/eslint-parser/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "669 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/schema-utils/4.0.0",
+    "size": 14338,
+    "status": "started"
+  },
+  "670 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/harmony-reflect/1.6.2",
+    "size": 20632,
+    "status": "started"
+  },
+  "671 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-nullish-coalescing-operator/7.16.7",
+    "size": 1996,
+    "status": "started"
+  },
+  "672 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "babel-preset-react-app",
+      "rawSpec": "^10.0.1"
+    }
+  },
+  "673 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-numeric-separator/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-numeric-separator",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "674 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-numeric-separator/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "675 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-nullish-coalescing-operator/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "676 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/harmony-reflect/1.6.2",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "677 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/schema-utils/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "678 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-worker/27.5.1",
+    "size": 19405,
+    "status": "started"
+  },
+  "679 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-optional-chaining/7.16.7",
+    "size": 8952,
+    "status": "started"
+  },
+  "680 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/eslint-parser/7.17.0",
+    "size": 13525,
+    "status": "started"
+  },
+  "681 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@rushstack/eslint-patch/1.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "@rushstack/eslint-patch",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "682 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@rushstack/eslint-patch/1.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "683 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/babel-plugin-macros/3.1.0",
+    "size": 11611,
+    "status": "started"
+  },
+  "684 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-numeric-separator/7.16.7",
+    "size": 1730,
+    "status": "started"
+  },
+  "685 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/make-dir/3.1.0",
+    "wanted": {
+      "dependentId": "/babel-loader/8.2.4",
+      "name": "make-dir",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "686 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/make-dir/3.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "687 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/preset-typescript/7.16.7",
+    "size": 4145,
+    "status": "started"
+  },
+  "688 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-transform-runtime/7.17.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-transform-runtime",
+      "rawSpec": "^7.16.4"
+    }
+  },
+  "689 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-runtime/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "690 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/find-cache-dir/3.3.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "691 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@babel/plugin-proposal-class-properties/7.16.7",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/babel-preset-react-app/10.0.1",
+      "name": "@babel/plugin-proposal-class-properties",
+      "rawSpec": "^7.16.0"
+    }
+  },
+  "692 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-class-properties/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "693 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-numeric-separator/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "694 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/make-dir/3.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "695 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-optional-chaining/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "696 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-worker/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "697 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/babel-plugin-macros/3.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "698 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/preset-typescript/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "699 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/eslint-parser/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "700 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@rushstack/eslint-patch/1.1.1",
+    "size": 7803,
+    "status": "started"
+  },
+  "701 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-runtime/7.17.0",
+    "size": 4433,
+    "status": "started"
+  },
+  "702 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-worker/27.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+      "name": "jest-worker",
+      "rawSpec": "^27.3.1"
+    }
+  },
+  "703 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/eslint-plugin-flowtype/8.0.3",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-flowtype",
+      "rawSpec": "^8.0.3"
+    }
+  },
+  "704 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-plugin-flowtype/8.0.3",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "705 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@rushstack/eslint-patch/1.1.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "706 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-transform-runtime/7.17.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "707 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint-plugin-import/2.26.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-import",
+      "rawSpec": "^2.25.3"
+    }
+  },
+  "708 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-import/2.26.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "709 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-class-properties/7.16.7",
+    "size": 1673,
+    "status": "started"
+  },
+  "710 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/@babel/plugin-proposal-class-properties/7.16.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "711 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/normalize-path/3.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+      "name": "normalize-path",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "712 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/normalize-path/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "713 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/schema-utils/3.1.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+      "name": "schema-utils",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "714 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/@jest/types/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "@jest/types",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "715 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "716 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.9"
+    }
+  },
+  "717 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/normalize-path/3.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "718 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/eslint-plugin-flowtype/8.0.3",
+    "size": 55020,
+    "status": "started"
+  },
+  "719 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/micromatch/4.0.5",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+      "name": "micromatch",
+      "rawSpec": "^4.0.4"
+    }
+  },
+  "720 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/micromatch/4.0.5",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "721 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint-plugin-react-hooks/4.4.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-react-hooks",
+      "rawSpec": "^4.3.0"
+    }
+  },
+  "722 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-react-hooks/4.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "723 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/babel-preset-jest/27.5.1",
+    "wanted": {
+      "dependentId": "/babel-jest/27.5.1",
+      "name": "babel-preset-jest",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "724 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-preset-jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "725 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/micromatch/4.0.5",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "726 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-plugin-flowtype/8.0.3",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "727 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/eslint-plugin-import/2.26.0",
+    "size": 308761,
+    "status": "started"
+  },
+  "728 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/jest-pnp-resolver/1.2.2",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "jest-pnp-resolver",
+      "rawSpec": "^1.2.2"
+    }
+  },
+  "729 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jest-pnp-resolver/1.2.2",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "730 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/resolve/1.22.0",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "resolve",
+      "rawSpec": "^1.20.0"
+    }
+  },
+  "731 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jest-pnp-resolver/1.2.2",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "732 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-import/2.26.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "733 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-util/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "jest-util",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "734 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-util/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "735 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/slash/3.0.0",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "slash",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "736 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/graceful-fs/4.2.10",
+    "wanted": {
+      "dependentId": "/fs-extra/10.0.1",
+      "name": "graceful-fs",
+      "rawSpec": "^4.2.0"
+    }
+  },
+  "737 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/confusing-browser-globals/1.0.11",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "confusing-browser-globals",
+      "rawSpec": "^1.0.11"
+    }
+  },
+  "738 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/confusing-browser-globals/1.0.11",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "739 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/babel-preset-jest/27.5.1",
+    "size": 1585,
+    "status": "started"
+  },
+  "740 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/eslint-plugin-react-hooks/4.4.0",
+    "size": 31208,
+    "status": "started"
+  },
+  "741 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-react-hooks/4.4.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "742 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/babel-preset-jest/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "743 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/universalify/2.0.0",
+    "wanted": {
+      "dependentId": "/fs-extra/10.0.1",
+      "name": "universalify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "744 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/universalify/2.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "745 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "746 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/serialize-javascript/6.0.0",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "serialize-javascript",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "747 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/serialize-javascript/6.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "748 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/confusing-browser-globals/1.0.11",
+    "size": 2077,
+    "status": "started"
+  },
+  "749 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/confusing-browser-globals/1.0.11",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "750 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint-plugin-testing-library/5.2.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-testing-library",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "751 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-testing-library/5.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "752 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/slash/4.0.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+      "name": "slash",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "753 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/slash/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "754 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/eslint-plugin-jsx-a11y/6.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-jsx-a11y",
+      "rawSpec": "^6.5.1"
+    }
+  },
+  "755 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-plugin-jsx-a11y/6.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "756 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/universalify/2.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "757 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/serialize-javascript/6.0.0",
+    "size": 6272,
+    "status": "started"
+  },
+  "758 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/serialize-javascript/6.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "759 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-regex-util/27.5.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+      "name": "jest-regex-util",
+      "rawSpec": "^27.0.0"
+    }
+  },
+  "760 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-regex-util/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "761 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint-plugin-react/7.29.4",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-react",
+      "rawSpec": "^7.27.1"
+    }
+  },
+  "762 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-react/7.29.4",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "763 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/eslint-plugin-jest/25.7.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-config-react-app/7.0.0",
+      "name": "eslint-plugin-jest",
+      "rawSpec": "^25.3.0"
+    }
+  },
+  "764 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-jest/25.7.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "765 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/cssnano/5.1.7",
+    "wanted": {
+      "dependentId": "/css-minimizer-webpack-plugin/3.4.1",
+      "name": "cssnano",
+      "rawSpec": "^5.0.6"
+    }
+  },
+  "766 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/cssnano/5.1.7",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "767 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/eslint-plugin-testing-library/5.2.1",
+    "size": 33320,
+    "status": "started"
+  },
+  "768 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-testing-library/5.2.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "769 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/resolve.exports/1.1.0",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "resolve.exports",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "770 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/resolve.exports/1.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "771 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/slash/4.0.0",
+    "size": 2002,
+    "status": "started"
+  },
+  "772 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/schema-utils/4.0.0",
+    "wanted": {
+      "dependentId": "/mini-css-extract-plugin/2.6.0",
+      "name": "schema-utils",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "773 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/slash/4.0.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "774 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/resolve.exports/1.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "775 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/jest-regex-util/27.5.1",
+    "size": 1691,
+    "status": "started"
+  },
+  "776 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-regex-util/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "777 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/eslint-plugin-react/7.29.4",
+    "size": 139561,
+    "status": "started"
+  },
+  "778 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/cssnano/5.1.7",
+    "size": 2976,
+    "status": "started"
+  },
+  "779 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/cssnano/5.1.7",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "780 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/strip-ansi/7.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+      "name": "strip-ansi",
+      "rawSpec": "^7.0.1"
+    }
+  },
+  "781 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/strip-ansi/7.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "782 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-haste-map/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "jest-haste-map",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "783 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-haste-map/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "784 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/string-length/5.0.1",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/jest-watch-typeahead/1.0.0",
+      "name": "string-length",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "785 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/string-length/5.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "786 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/@types/eslint/7.29.0",
+    "wanted": {
+      "dependentId": "r2.cnpmjs.org/eslint-webpack-plugin/3.1.1",
+      "name": "@types/eslint",
+      "rawSpec": "^7.28.2"
+    }
+  },
+  "787 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/eslint/7.29.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "788 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-react/7.29.4",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "789 debug pnpm:_dependency_resolved": {
+    "resolution": "r.cnpmjs.org/jest-validate/27.5.1",
+    "wanted": {
+      "dependentId": "/jest-resolve/27.5.1",
+      "name": "jest-validate",
+      "rawSpec": "^27.5.1"
+    }
+  },
+  "790 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/jest-validate/27.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "791 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/strip-ansi/7.0.1",
+    "size": 2035,
+    "status": "started"
+  },
+  "792 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/strip-ansi/7.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "793 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/eslint-plugin-jsx-a11y/6.5.1",
+    "size": 108734,
+    "status": "started"
+  },
+  "794 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/@types/eslint/7.29.0",
+    "size": 22791,
+    "status": "started"
+  },
+  "795 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/@types/eslint/7.29.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "796 debug pnpm:_dependency_resolved": {
+    "resolution": "r2.cnpmjs.org/jsonfile/6.1.0",
+    "wanted": {
+      "dependentId": "/fs-extra/10.0.1",
+      "name": "jsonfile",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "797 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jsonfile/6.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "resolved"
+  },
+  "798 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r2.cnpmjs.org/string-length/5.0.1",
+    "size": 2168,
+    "status": "started"
+  },
+  "799 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/string-length/5.0.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "800 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/eslint-plugin-jsx-a11y/6.5.1",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "801 debug pnpm:progress": {
+    "packageId": "r2.cnpmjs.org/jsonfile/6.1.0",
+    "requester": "D:\\study\\my-app",
+    "status": "found_in_store"
+  },
+  "802 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "r.cnpmjs.org/eslint-plugin-jest/25.7.0",
+    "size": 68247,
+    "status": "started"
+  },
+  "803 debug pnpm:progress": {
+    "packageId": "r.cnpmjs.org/eslint-plugin-jest/25.7.0",
+    "requester": "D:\\study\\my-app",
+    "status": "fetched"
+  },
+  "804 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/sanitize.css"
+  },
+  "805 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@eslint%2Feslintrc"
+  },
+  "806 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/escalade"
+  },
+  "807 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/caniuse-lite"
+  },
+  "808 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/node-releases"
+  },
+  "809 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Feslint-plugin"
+  },
+  "810 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/picocolors"
+  },
+  "811 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Fparser"
+  },
+  "812 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/electron-to-chromium"
+  },
+  "813 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read",
+      "attempts": 1,
+      "resource": "https://r.cnpmjs.org/jest-validate/-/jest-validate-27.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/jest-validate/-/jest-validate-27.5.1.tgz"
+  },
+  "814 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/jest-watcher"
+  },
+  "815 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/ansi-escapes"
+  },
+  "816 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/postcss-browser-comments"
+  },
+  "817 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@humanwhocodes%2Fconfig-array"
+  },
+  "818 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@csstools%2Fnormalize.css"
+  },
+  "819 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/sanitize.css"
+  },
+  "820 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/@eslint%2Feslintrc"
+  },
+  "821 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/escalade"
+  },
+  "822 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/node-releases"
+  },
+  "823 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Feslint-plugin"
+  },
+  "824 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/caniuse-lite"
+  },
+  "825 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Fparser"
+  },
+  "826 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/picocolors"
+  },
+  "827 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/electron-to-chromium"
+  },
+  "828 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect",
+      "attempts": 2,
+      "resource": "https://r.cnpmjs.org/jest-validate/-/jest-validate-27.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/jest-validate/-/jest-validate-27.5.1.tgz"
+  },
+  "829 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/jest-watcher"
+  },
+  "830 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/ansi-escapes"
+  },
+  "831 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/postcss-browser-comments"
+  },
+  "832 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/@humanwhocodes%2Fconfig-array"
+  },
+  "833 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET",
+      "erroredSysCall": "read",
+      "attempts": 1,
+      "resource": "https://r.cnpmjs.org/jest-haste-map/-/jest-haste-map-27.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://r.cnpmjs.org/jest-haste-map/-/jest-haste-map-27.5.1.tgz"
+  },
+  "834 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/@csstools%2Fnormalize.css"
+  },
+  "835 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Feslint-plugin"
+  },
+  "836 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/@typescript-eslint%2Fparser"
+  },
+  "837 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/jest-watcher"
+  },
+  "838 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ETIMEDOUT",
+      "code": "ETIMEDOUT",
+      "erroredSysCall": "connect",
+      "attempts": 2,
+      "resource": "https://r.cnpmjs.org/jest-haste-map/-/jest-haste-map-27.5.1.tgz"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://r.cnpmjs.org/jest-haste-map/-/jest-haste-map-27.5.1.tgz"
+  },
+  "839 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "spec": {
+      "fetchSpec": "*",
+      "name": "sanitize.css",
+      "type": "range"
+    },
+    "pkgsStack": [
+      {
+        "id": "r2.cnpmjs.org/react-scripts/5.0.0",
+        "name": "react-scripts",
+        "version": "5.0.0"
+      },
+      {
+        "id": "r2.cnpmjs.org/postcss-normalize/10.0.1",
+        "name": "postcss-normalize",
+        "version": "10.0.1"
+      }
+    ],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://r.cnpmjs.org/sanitize.css: request to https://r.cnpmjs.org/sanitize.css failed, reason: connect ETIMEDOUT 163.181.35.229:443",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://r.cnpmjs.org/sanitize.css: request to https://r.cnpmjs.org/sanitize.css failed, reason: connect ETIMEDOUT 163.181.35.229:443\n    at RetryOperation._fn (C:\\Users\\Administrator\\AppData\\Roaming\\nvm\\v16.12.0\\node_modules\\pnpm\\dist\\pnpm.cjs:85565:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
