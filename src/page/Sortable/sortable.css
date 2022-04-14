@@ -1,0 +1,18 @@
+.sort {
+
+}
+.sort h1 {
+  font-size: 52px;
+  margin: 0;
+}
+
+.sort h2 {
+  color: #f6c945;
+  text-transform: uppercase;
+}
+
+.sort img {
+  cursor: grab;
+  height: 180px;
+  width: 240px;
+}

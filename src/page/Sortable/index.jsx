@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Gif from './SortableItem';
 import { sortableContainer, sortableElement } from 'react-sortable-hoc';
+import './sortable.css'
 // 子项目
 const SortGif = sortableElement(({ gif }) => {
   return <Gif gif={gif} key={gif}></Gif>;
