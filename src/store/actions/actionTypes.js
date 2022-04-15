@@ -1,0 +1,14 @@
+// action类型
+const ADD_TODD = 'ADD_TODD';
+const TOGGLE_TODO = 'TOGGLE_TODO';
+const REMOVE_TODD = 'REMOVE_TODD';
+const SET_VISIBILITY_FILTER = 'SET_VISIBILITY_FILTER';
+
+// 其他常量
+const VisibilityFilters = {
+  SHOW_ALL: 'SHOW_ALL',
+  SHOW_COMPLETED: 'SHOW_COMPLETED',
+  SHOW_ACTIVE: 'SHOW_ACTIVE'
+};
+
+export { ADD_TODD, TOGGLE_TODO, SET_VISIBILITY_FILTER, VisibilityFilters };
