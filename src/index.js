@@ -9,7 +9,7 @@ import moment from 'moment';
 import 'moment/locale/zh-cn';
 import 'antd/dist/antd.css';
 import { Provider } from 'react-redux';
-import store from './stores';
+import store from './store';
 moment.locale('zh-cn');
 ReactDOM.render(
   <Provider store={store}>
