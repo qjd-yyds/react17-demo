@@ -4,7 +4,7 @@ let id = 0;
 class index extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
-    const { form } = this.props;
+    // const { form } = this.props;
     this.props.form.validateFields((error, values) => {
       console.log(values);
       if (!error) {

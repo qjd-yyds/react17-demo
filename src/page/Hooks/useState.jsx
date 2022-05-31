@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function UseState() {
+  // ! 初始化数据，当数据变化的时候，重新执行render函数
   const [count, setcount] = useState(0);
   return (
     <div>
